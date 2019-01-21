@@ -12,6 +12,11 @@ public class HighLowGame {
     int userScore = 0;
     boolean userProspest = true;
     Scanner scanner = new Scanner(System.in);
+
+    /**
+     * 数値の表示とユーザー入力に対する返答
+     */
+
     public void displayCards(){
             int point = rand.nextInt(TIME);
             System.out.println("ただいまの残りの枚数は"+cars.size()+"で," +

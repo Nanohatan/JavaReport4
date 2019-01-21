@@ -9,10 +9,9 @@ public class Main {
             game.displayCards();
             if (game.userProspest==true){
                 game.userScore++;
-
             }
         }
-        System.out.println("あなたのスコアは"+game.userScore+"でした！");
+        System.out.println("あなたのスコアは"+game.userScore+"でした");
 
     }
 

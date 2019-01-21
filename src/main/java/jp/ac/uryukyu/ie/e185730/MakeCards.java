@@ -4,6 +4,11 @@ import java.util.List;
 
 public class MakeCards {
     public List<Integer> cardslist = new ArrayList<Integer>();
+
+    /**
+     * ２０個のランダムな数字の要素を持つリストを作る
+     * @return 作ったリスト
+     */
     public List<Integer> makeCards(){
         //List<Integer> cardslist = new ArrayList<Integer>();
         for (int i=0;i<20;i++){
